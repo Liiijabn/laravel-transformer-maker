@@ -1,0 +1,26 @@
+{
+    "name": "liiijabn/laravel-transformer-maker",
+    "description": "A Laravel 5 package to create model Fractal Transformers",
+    "type": "library",
+    "keywords": ["fractal", "transformer", "api"],
+    "authors": [
+        {
+            "name": "l.jiabin",
+            "email": "liiijabn@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Liiijabn\\TransformerMaker\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liiijabn\\TransformerMaker\\TransformerMakeServiceProvider"
+            ]
+        }
+    }
+}
